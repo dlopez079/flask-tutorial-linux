@@ -6,5 +6,8 @@ def create_app():
 
     # Let's tell the app that I inserted a blueprint for views.
     from .views import views
+    
+    # Let's tell the app that I insereted a blueprint for authentication.
+    from .auth import auth
 
     return app

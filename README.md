@@ -5,22 +5,32 @@ In this project, I will use both Python and Flask to create a CRUD application. 
 
 Make sure you have the latest version of Python installed.  
 
-# Recommended IDE
-Windows: MS VSCode via WSL2.0 with Ubuntu 20.4 or better.  Python comes pre-installed with the Latest Linux Ubuntu.  
+## Recommended IDE
+Windows: MS VSCode via WSL2.0 with Ubuntu 20.4 or better.  
+Python comes pre-installed with the Latest Linux Ubuntu. 
+
 Mac: MS VSCode
+
 Linux: VSCode
 
-# Recommended Plug-Ins
+## Recommended Plug-Ins
 Prettier
-Pythone
-Pylance
-Pythong IntelliSense
 
-```bash
+Pythone
+
+Pylance
+
+Pythong 
+
+IntelliSense
+
+
 Navigate to your main project folder and clone the repo.
+```bash
 git clone <repo-url>
-Once you finish cloning the project, CD into the project folder. 
+
 ```
+Once you finish cloning the project, CD into the project folder. 
 
 ```bash
 pip install -r requirements.txt
@@ -28,8 +38,9 @@ pip install -r requirements.txt
 
 ## Running The App
 
-```bash
 python applicationStart python file (ex. main.py, app.py, runserver.py)  The common one would be app.py but it's up to you. 
+```bash
+python3 app.py
 ```
 
 ## Viewing The App

@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Running Server Cache files
+/website/__pycache__

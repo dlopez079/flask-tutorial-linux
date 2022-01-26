@@ -7,4 +7,4 @@ views = Blueprint('views', __name__)
 # Decorator along with address then you define the function.
 @views.route('/')
 def home():
-    return "<h1>TEST</h1>"
+    return "<h1>VIEWS</h1>"
